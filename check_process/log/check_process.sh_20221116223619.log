@@ -1,0 +1,15 @@
+16-11-2022 22:36:19 > init_check_process [INFO] : Aucun nom de fichier de configuration passe en paramètre
+16-11-2022 22:36:19 > initC_check_process [INFO] : FIC_PARAM=../cfg/check_process.cfg (Valeur par defaut)
+16-11-2022 22:36:19 > initCheck_processus [INFO] : FIC_PARAM        = ../cfg/check_process.cfg
+16-11-2022 22:36:19 > initCheck_processus [INFO] : Fin de initCheck_processus
+16-11-2022 22:36:19 > initCheck_processus [INFO] : FILE             = check_process.sh
+16-11-2022 22:36:19 > initCheck_processus [INFO] : LOG_LOCATION     = ../log
+16-11-2022 22:36:19 > initCheck_processus [INFO] : DATE             = 20221116223619
+16-11-2022 22:36:19 > initCheck_processus [INFO] : LOG_FILE         = ../log/check_process.sh_20221116223619.log
+16-11-2022 22:36:19 > initCheck_processus [INFO] : FIC_PARAM        = ../cfg/check_process.cfg
+16-11-2022 22:36:19 > initCheck_processus [INFO] : Fin de initCheck_processus
+16-11-2022 22:36:19 > check_process [INFO] : ######### Demarrage de traitement ...  ###########
+16-11-2022 22:36:19 >  check_process [INFO] : Le processus (tomcat) n est pas démarré
+16-11-2022 22:36:19 >  check_process [INFO] : Demarrage du processus ... (tomcat)
+Tomcat started.
+16-11-2022 22:36:19 > check_process [INFO] : ######### Fin de traitement ###########

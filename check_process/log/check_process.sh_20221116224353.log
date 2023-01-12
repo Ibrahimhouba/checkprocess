@@ -1,0 +1,159 @@
+init_check_process.sh INFO] : FIC_PARAM=/etc/systemd/system/tomcat.service
+16-11-2022 22:43:53 > initCheck_processus [INFO] : FIC_PARAM        = /etc/systemd/system/tomcat.service
+16-11-2022 22:43:53 > initCheck_processus [INFO] : Fin de initCheck_processus
+16-11-2022 22:43:53 > initCheck_processus [INFO] : FILE             = check_process.sh
+16-11-2022 22:43:53 > initCheck_processus [INFO] : LOG_LOCATION     = ../log
+16-11-2022 22:43:53 > initCheck_processus [INFO] : DATE             = 20221116224353
+16-11-2022 22:43:53 > initCheck_processus [INFO] : LOG_FILE         = ../log/check_process.sh_20221116224353.log
+16-11-2022 22:43:53 > initCheck_processus [INFO] : FIC_PARAM        = /etc/systemd/system/tomcat.service
+16-11-2022 22:43:53 > initCheck_processus [INFO] : Fin de initCheck_processus
+16-11-2022 22:43:53 > check_process [INFO] : ######### Demarrage de traitement ...  ###########
+16-11-2022 22:43:53 > check_process [INFO] : Le processus ([Unit]) est en cours d execution.
+16-11-2022 22:43:53 >  check_process [INFO] : Le processus (Description=Tomcat) n est pas démarré
+16-11-2022 22:43:53 >  check_process [INFO] : Demarrage du processus ... (Description=Tomcat)
+sudo: 9/servlet : commande introuvable
+16-11-2022 22:43:53 >  check_process [INFO] : Le processus (After=network.target) n est pas démarré
+16-11-2022 22:43:53 >  check_process [INFO] : Demarrage du processus ... (After=network.target)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:53 > check_process [INFO] : Le processus ([Service]) est en cours d execution.
+16-11-2022 22:43:53 >  check_process [INFO] : Le processus (Type=forking) n est pas démarré
+16-11-2022 22:43:53 >  check_process [INFO] : Demarrage du processus ... (Type=forking)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:53 >  check_process [INFO] : Le processus (User=tomcat) n est pas démarré
+16-11-2022 22:43:53 >  check_process [INFO] : Demarrage du processus ... (User=tomcat)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:53 >  check_process [INFO] : Le processus (Group=tomcat) n est pas démarré
+16-11-2022 22:43:53 >  check_process [INFO] : Demarrage du processus ... (Group=tomcat)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.15.0.10-3.el8.x86_64") n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="JAVA_HOME=/usr/lib/jvm/java-11-openjdk-11.0.15.0.10-3.el8.x86_64")
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="JAVA_OPTS=-Djava.security.egd=file:///dev/urandom)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="CATALINA_BASE=/opt/tomcat/latest") n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="CATALINA_BASE=/opt/tomcat/latest")
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="CATALINA_HOME=/opt/tomcat/latest") n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="CATALINA_HOME=/opt/tomcat/latest")
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="CATALINA_PID=/opt/tomcat/latest/temp/tomcat.pid") n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="CATALINA_PID=/opt/tomcat/latest/temp/tomcat.pid")
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (Environment="CATALINA_OPTS=-Xms300M) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (Environment="CATALINA_OPTS=-Xms300M)
+sudo : option invalide -- 'X'
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (#Environment="CATALINA_OPTS=-Xms512K) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (#Environment="CATALINA_OPTS=-Xms512K)
+sudo : option invalide -- 'X'
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (ExecStart=/opt/tomcat/latest/bin/startup.sh) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (ExecStart=/opt/tomcat/latest/bin/startup.sh)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (ExecStop=/opt/tomcat/latest/bin/shutdown.sh) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (ExecStop=/opt/tomcat/latest/bin/shutdown.sh)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 > check_process [INFO] : Le processus ([Install]) est en cours d execution.
+16-11-2022 22:43:54 >  check_process [INFO] : Le processus (WantedBy=multi-user.target) n est pas démarré
+16-11-2022 22:43:54 >  check_process [INFO] : Demarrage du processus ... (WantedBy=multi-user.target)
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-AknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-AknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+            [command]
+usage: sudo [-AbEHknPS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] [VAR=value] [-i|-s] [<command>]
+usage: sudo -e [-AknS] [-r role] [-t type] [-C num] [-g group] [-h host] [-p
+            prompt] [-T timeout] [-u user] file ...
+16-11-2022 22:43:54 > check_process [INFO] : ######### Fin de traitement ###########

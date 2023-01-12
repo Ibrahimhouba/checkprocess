@@ -1,0 +1,11 @@
+init_check_process.sh INFO] : FIC_PARAM=tomcat
+15-12-2022 06:19:09 > initCheck_processus [INFO] : FIC_PARAM        = tomcat
+15-12-2022 06:19:09 > initCheck_processus [INFO] : Fin de initCheck_processus
+15-12-2022 06:19:09 > initCheck_processus [INFO] : FILE             = check_process.sh
+15-12-2022 06:19:09 > initCheck_processus [INFO] : LOG_LOCATION     = ../log
+15-12-2022 06:19:09 > initCheck_processus [INFO] : DATE             = 20221215061909
+15-12-2022 06:19:09 > initCheck_processus [INFO] : LOG_FILE         = ../log/check_process.sh_20221215061909.log
+15-12-2022 06:19:09 > initCheck_processus [INFO] : FIC_PARAM        = tomcat
+15-12-2022 06:19:09 > initCheck_processus [INFO] : Fin de initCheck_processus
+15-12-2022 06:19:09 > check_process [INFO] : ######### Demarrage de traitement ...  ###########
+15-12-2022 06:19:09 > check_process [INFO] : ######### Fin de traitement ###########
